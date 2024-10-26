@@ -1,8 +1,8 @@
 import Header from "./Header/Header";
 import Footer from "./footer/Footer";
-import container from "./container/container";
-import Logoutbtn from "./Header/Logoutbtn";
+
+import Logoutbtn from "./Header/Logoutbtn.js";
 import Logo from "./Logo";
 
 
-export {Header,Footer,container,Logoutbtn,Logo}
+export {Header,Footer,Logoutbtn,Logo}

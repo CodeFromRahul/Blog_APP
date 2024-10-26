@@ -4,7 +4,8 @@ import './App.css'
 import React,{useState,useEffect} from 'react'
 import authService  from "./appwrite/auth.js"
 import { login,logout } from './store/authSlice.js'
-import { Footer, Header } from './components/index.js'
+import Header from "./components/Header/Header.jsx";
+import Footer from "./components/footer/Footer.jsx";
 // import { Outlet } from 'react-router-dom
 
 

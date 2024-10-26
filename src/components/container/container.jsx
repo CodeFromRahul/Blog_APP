@@ -1,9 +1,9 @@
 import React from 'react'
 
-const container = ({children}) => {
+const Container = ({children}) => {
   return (
     <div className='w-full h-screen max-w-7xl '>{children}</div>
   )
 }
 
-export default container
+export default Container

@@ -1,5 +1,6 @@
 import React from 'react'
-import {container,Logoutbtn,Logo} from '../index'
+import {Logoutbtn,Logo} from '../index'
+// import { Container } from '../Container/Container'
 import { useSelector } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
 
@@ -38,7 +39,7 @@ const navItems = [
 
     return (
     <header>
-      <container>
+     
       <nav className='flex'>
         <Link to="/">
           <Logo width='70px'/>
@@ -61,7 +62,7 @@ const navItems = [
           )}
         </ul>
       </nav>
-      </container>
+    
     </header>
   )
 }
